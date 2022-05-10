@@ -1,0 +1,58 @@
+/****** Main Styling ******/
+
+:root {
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+}
+
+body,
+input {
+  font-family: "Gugi", cursive;
+  font-size: 16px;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(3 160 98 / var(--tw-text-opacity));
+}
+
+.container {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+a {
+  color: #03a062;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+}
+
+input#button {
+  width: 230px;
+  border: 1px solid #e5e7eb;
+}
+
+.view {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px solid #aaa;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+}
